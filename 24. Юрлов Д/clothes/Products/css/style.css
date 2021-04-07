@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #fff;
+    height: auto;
+    width: 1600px;
+}
+.header{
+    width: 100%;
+    height: 150px;
+}
+.headcont1{
+    width: auto;
+    height: 50px;
+    padding: 25px 225px;
+    border-bottom: 1px solid #ECECEC;
+}
+.group{
+    padding: 0px;
+}
+.brand{
+    padding: 5px;
+}
+.hc1left{
+    float: left;
+}
+.hc1right{
+    float: right;
+}
+.buttonhead{
+    width: 130px;
+    height: 40px;
+    background-color: #F16D7F;
+    text-align: center;
+    padding: 0 10px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.headcont2{
+    width: 100%;
+    height: 50px;
+}
+.headcont2 nav{
+    padding: 15px 0;
+    margin: 0 auto;
+    width: 876px;
+    height: 16px;
+    text-align: center;
+}
+.headcont2 nav a{
+    padding: 0 30px;
+    float: left;
+}
+.headcont2 nav a li{
+    color: black;
+    font-size: 14px;
+    list-style-type: none;
+    float: left;
+}
+
+.headcont2 a li:hover {
+    border-bottom: 2px solid #EF5B70;
+}
+.browse{
+    float: left;
+    color: #A4A4A4;
+    margin-top: 8px;
+    margin-left: 15px;
+    width: 403px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+}
+.one{
+    height: 148px;
+    width: 100%;
+    background-color: #F8F3F4;
+    background-repeat: no-repeat;
+}
+.onecont{
+    padding-top: 60px;
+    padding-left: 220px;
+    padding-right: 150px;
+}
+.newarrivals{
+    color: #F16D7F;
+    font-size: 24px;
+}
+.onecont nav{
+    float: right;
+    width: 300px;
+}
+.onecont nav ul a li{
+    font-size: 14px;
+    list-style-type: none;
+    float: left;
+    margin-left: 10px;
+}
+.onecont nav ul a li:hover{
+    font-size: 17px;
+    vertical-align: middle;
+}
+.hr{
+    border: none; 
+    color: #E8E8E8; 
+    background-color: #E8E8E8; 
+    height: 1px;
+    margin: 15px 0;
+}
+.two{
+    height: 1500px;
+    width: auto;
+    margin: 0 auto;
+    margin-left: 230px;
+    margin-top: 70px;
+}
+.twocont1{
+    width: 260px;
+    margin-right: 30px;
+    float: left;
+}
+.twocont2{
+    width: 848px;
+    height: 1500px;
+    float:left;
+}
+summary{
+    width: calc(100%-15px);
+    height: 27px;
+    cursor: pointer;
+    border-bottom: 2px solid #EBEBEB;
+    border-left: 5px solid #EF5B70;
+    font-size: 14px;
+    color: #EF5B70;
+    padding-top: 10px;
+    padding-left: 15px;   
+}
+summary::-webkit-details-marker{
+    display: none;
+}
+.atwo a p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #6F6E6E;
+}
+.atwo a p:hover{
+    font-size: 16px;
+    color: black
+}
+.otc21{
+    width: 202px;
+    float:left;
+    margin-right: 80px;
+}
+.otc22{
+    width: 236px;
+    float:left;
+    margin-right: 50px;
+}
+.otc22 input{
+    margin-right: 10px;
+}
+.otc22 div{
+    float: left;
+}
+.otc23{
+    width: 263px;
+    float:right;
+}
+.otc31{
+    height: 115px;
+    width: 100%;
+    color: #6F6E6E;
+}
+.text1otc{
+    font-size: 14px;
+}
+.otc32{
+    height: 50px;
+    width: 100%
+}
+.otc32{
+    height: 50px;
+    width: 100%;
+    background-color: #F3F3F3;
+    color: #6F6E6E;
+    text-align: center;
+}
+.zagotc{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.four{
+    width: 100%;
+    height: 1200px;
+}
+.fourcont{
+    width: 100%;
+    height: 100%;
+}
+.tcfetured{
+    font-size: 24px;
+    font-weight: bold;
+}
+.tcshopfor{
+    font-size: 14px;
+    color: #9F9F9F;
+}
+.fourtext{
+    text-align: center;
+}
+.blockimg{
+    margin: 0;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.slider4 {
+    width: 100%;
+    height: 360px;
+    background: white;
+
+}    
+.slider4 li {
+    width: 260px;
+    height: 280px;
+    list-style-type: none;
+}
+.arrow_l_r a{
+    color: #C4C4C4
+}
+.arrow_l_r a:hover{
+    color: #EF5B70
+}
+.img1{
+    display: none;
+}
+.gallery{
+    width: auto;
+}
+.galleryitem {
+    position: relative;
+    background: #E9E9E9;
+    display: block;
+    width: 260px;
+    height: 280px;
+    float: left;
+}
+.galleryitem:hover{
+    box-shadow: 0 0 8px rgba(0,0,0,0.16);
+}
+
+.galleryitem:hover .bottom_img{
+    box-shadow: 0 5px 8px rgba(0,0,0,0.16);
+}
+
+.bottomimg{
+    height: 60px;
+    width: 240px;
+    background-color: white;
+    padding: 10px;
+    font-weight: bold
+}
+.mango{
+    font-size: 13px;
+}
+.price{
+    font-size: 16px;
+    color: #F16D7F;
+}
+.fourbutton_one{
+    width: 212px;
+    height: 32px;
+    padding-top: 16px;
+    text-align: center;
+    background-color: #F16D7F;
+}
+.browse_all_product{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn4{
+    width: 150px;
+    height: 44px;
+    border: 1px solid #EF5B70;
+    border-radius: 3px;
+    text-align: center;
+    color: #EF5B70;
+    background-color: #fff
+}
+.btn4:hover{
+    background-color: #EF5B70;
+    border: 1px solid #fff;
+    color: #fff
+}
+
+.five1{
+    width: 100%;
+    height: 341px;
+    background-color: #222224;
+}
+.bk1{
+    width: calc(100% - 460px);
+    height: 218px;
+    padding: 110px 230px;
+}
+.fivecont1{
+    height: 100%;
+    width: 100%;
+}
+.avatarca1{
+    float: left;
+    height: 83px;
+    width: 83px;
+}
+.avatarca1 img{
+    border-radius: 50%;
+    height: 83px;
+    width: 83px;
+}
+.columnone1{
+    margin-left: 20px;
+    float: left;
+    width: 425px;
+    line-height: 20px;
+}
+.columntwo1{
+    padding-top: 40px;
+    text-align: center;
+    float: right;
+}
+.lineblock1 hr{
+    margin-top: 20px;
+    float: left;
+    margin-right: 13px;
+    background-color: #D6D6D6;
+    box-shadow: 0 0 2px #00000016;
+    border: none;
+}
+.enteremail1{
+    width: 376px;
+    height: 45px;
+    background-color: #E1E1E1;
+    border-radius: 23px;
+}
+.fourtext1{
+    text-align: center;
+    color: #fff;
+    width: 333px;
+    float: left;
+    margin-right: 50px;
+}
+.zagolovfour{
+    font-size: 20px;
+    line-height: 40px;
+}
+.text_span_four{
+    font-size: 14px;
+    line-height: 25px;
+}
+.five{
+    width: 100%;
+    height: 438px;
+    background: url(../img/Clip13.png);
+}
+.bk{
+    width: calc(100% - 460px);
+    height: 218px;
+    padding: 110px 230px;
+    background-color: #F2F2F250
+}
+.fivecont{
+    height: 100%;
+    width: 100%;
+}
+.avatarca{
+    float: left;
+    height: 83px;
+    width: 83px;
+}
+.avatarca img{
+    border-radius: 50%;
+    height: 83px;
+    width: 83px;
+}
+.columnone{
+    margin-left: 20px;
+    float: left;
+    width: 425px;
+    line-height: 20px;
+}
+.columntwo{
+    padding-top: 40px;
+    text-align: center;
+    float: right;
+}
+.lineblock hr{
+    margin-top: 20px;
+    float: left;
+    margin-right: 13px;
+    background-color: #D6D6D6;
+    box-shadow: 0 0 2px #00000016;
+    border: none;
+}
+.enteremail{
+    width: 376px;
+    height: 45px;
+    background-color: #E1E1E1;
+    border-radius: 23px;
+}
+
+.btn {
+  cursor: pointer;
+}
+.btn:hover hr{
+  background-color: #F16D7F;
+}
+.six{
+    width: calc(100% - 460px);
+    height: 240px;
+    padding: 110px 230px 0 230px;
+    margin-bottom: 100px;
+}
+.sixcont{
+    
+}
+.onesix{
+    width: 450px;
+    float: left;
+}
+.twosix{
+    margin-left: 70px;
+    width: 100px;
+    float: left;
+}
+.threesix{
+    margin-left: 130px;
+    width: 150px;
+    float: left;
+}
+.foursix{
+    margin-left: 70px;
+    width: 160px;
+    float: left;
+}
+.zagsix{
+    color: #F16D7F;
+    font-size: 18px;
+    font-weight: bold;
+}
+.spansix{
+    color: #898989;
+    font-size: 16px;
+    line-height: 60px;
+}
+.footer{
+    height: 20px;
+    width: calc(100% - 460px);
+    padding: 30px 230px 20px 230px;
+    background-color: #E6E6E6;
+}
+.footercont{
+
+}
+.lineblock1 a{
+    float: right;
+}
+
+.divblock{
+    float: left;
+    background-color: #fff;
+    border: none;
+    margin-top: -25px;
+    margin-right: 10px;
+    text-align: center;
+    box-shadow: 0 0 2px #00000030;
+    height: 29px;
+    width: 29px;
+    padding: 3px;
+}
